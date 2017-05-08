@@ -1,4 +1,11 @@
-## Welcome to GitHub Pages
+## Welcome to Coco's GitHub Pages
+
+I am starting my journey to establishing my blog here. 
+:blush:
+:satisfied:  
+Just for fun! Haha
+
+It feels like that the rules are the same at R Markdown. Fantastic!
 
 You can use the [editor on GitHub](https://github.com/hi-yo-coco/hi-yo-coco.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
