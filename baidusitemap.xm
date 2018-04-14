@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>https://hi-yo-coco.github.io/2018/04/14/</loc>
+    <lastmod>2018-04-14T14:46:10.530Z</lastmod>
+    <data>
+        <display>
+        <title>抓到一只小怪兽</title>
+        <pubTime>2018-04-14T13:34:37.000Z</pubTime>
+        
+        <tag>第一次</tag>
+         
+        <tag>CD韩夏</tag>
+         
+         
+           
+             
+              <breadCrumb title="日常" url="https://hi-yo-coco.github.io/categories/%E6%97%A5%E5%B8%B8/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://hi-yo-coco.github.io/2017/05/15/</loc>
     <lastmod>2018-03-21T10:44:05.860Z</lastmod>
     <data>
