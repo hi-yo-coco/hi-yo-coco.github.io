@@ -135,59 +135,6 @@
   </entry>
   
   <entry>
-    <title>不忘初心</title>
-    <link href="https://hi-yo-coco.github.io/2017/11/18/"/>
-    <id>https://hi-yo-coco.github.io/2017/11/18/</id>
-    <published>2017-11-18T03:13:13.000Z</published>
-    <updated>2018-01-01T14:23:50.372Z</updated>
-    
-    <content type="html"><![CDATA[<script src=/js/crypto-js.js></script><script>
-function doDecrypt(pwd, onError) {
-	console.log("in doDecrypt");
-	var txt = document.getElementById("enc_content").innerHTML;
-	var plantext;
-	try {
-	  	var bytes = CryptoJS.AES.decrypt(txt, pwd);
-		plaintext = bytes.toString(CryptoJS.enc.Utf8);
-	} catch(err) {
-		if(onError) {onError(err);}
-		return;
-	}
-	document.getElementById("enc_content").innerHTML = plaintext;
-	document.getElementById("enc_content").style.display = "block";
-   document.getElementById("enc_passwd").style.display = "none";
-}
-</script>
-<div id="enc_content" style="display:none">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</div><div id="enc_passwd"> <input id="enc_pwd_input" type="text" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div>
-<script>
-var onError = function(error) {
-	document.getElementById("enc_error").innerHTML = "password error!"
-};
-function decrypt() {
-var passwd = document.getElementById("enc_pwd_input").value;
-console.log(passwd);
-doDecrypt(passwd, onError);
-}
-</script>
-</div>]]></content>
-    
-    <summary type="html">
-    
-      &lt;script src=/js/crypto-js.js&gt;&lt;/script&gt;&lt;script&gt;
-function doDecrypt(pwd, onError) {
-	console.log(&quot;in doDecrypt&quot;);
-	var txt = document.getEleme
-    
-    </summary>
-    
-      <category term="随笔" scheme="https://hi-yo-coco.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
-    
-    
-      <category term="善哉" scheme="https://hi-yo-coco.github.io/tags/%E5%96%84%E5%93%89/"/>
-    
-  </entry>
-  
-  <entry>
     <title>献给小妞</title>
     <link href="https://hi-yo-coco.github.io/2017/10/30/"/>
     <id>https://hi-yo-coco.github.io/2017/10/30/</id>
@@ -938,7 +885,7 @@ doDecrypt(passwd, onError);
     <link href="https://hi-yo-coco.github.io/2017/06/05/"/>
     <id>https://hi-yo-coco.github.io/2017/06/05/</id>
     <published>2017-06-05T02:54:11.000Z</published>
-    <updated>2017-07-28T06:11:10.074Z</updated>
+    <updated>2018-05-10T05:41:40.113Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>湿漉漉的一天，适合宅馆里码作业。雨点是白噪声，很容易催眠，做个黄粱美梦。</p>
@@ -947,11 +894,6 @@ doDecrypt(passwd, onError);
 <p>很新奇的感觉，毕竟第一次买嘛。<br>以前从来没仔细看过，总觉得珠光宝气会闪瞎我的卡姿兰大眼睛，不合时宜。</p>
 <p>哎呀一眼就看上了海豚，s925经过烤漆工艺之后看上去干净又清爽，不像嵌了氧化锆的那么Bling Bling的，但比普通的要亮一些，总之就是好看(≧∇≦)</p>
 <p>拿着方方正正的小盒子回来的时候，脑洞少女总觉得里面放的是戒指，而且是用来求婚的。不禁想起前两天Tancy发图说楼下有人用蜡烛摆 “咱们结婚吧！”，然后在里面撒上玫瑰花瓣求婚的，不过并没有喊楼。虽然不知道是谁，在这里悄悄地祝福他们。</p>
-<hr>
-<p>附上昨天的阅读理解（然而并不是很想感谢出题的H同学）：<br>如果满分是五分的话，柒柒说我最多拿两分 = =、<br>连豆奶都用哀愁又充满慈爱的目光看着我 = =、<br>霞子摆摆手，这恩爱秀的，没毛病 :)<br>而我却以为人家媳妇儿是男的？？？ = =、<br>原来女生也可以叫石头的哦 = =、<br>好好好我投降我反思。</p>
-<p>诶那什么一反思我就想起很多个奇葩名字：<br>什么宏涛妹妹，竹凝弟弟之类的。。。</p>
-<p><img src="/2017/06/05/dog food.jpg" alt="dog food"></p>
-<p>好的，让我们祝福这对蜜恋的新人可以相伴走过一生。</p>
 ]]></content>
     
     <summary type="html">
@@ -975,7 +917,7 @@ doDecrypt(passwd, onError);
     <link href="https://hi-yo-coco.github.io/2017/06/02/"/>
     <id>https://hi-yo-coco.github.io/2017/06/02/</id>
     <published>2017-06-02T10:46:19.000Z</published>
-    <updated>2017-07-28T06:06:47.969Z</updated>
+    <updated>2018-05-10T05:42:24.906Z</updated>
     
     <content type="html"><![CDATA[<blockquote>
 <p>校园卡“续命”指南</p>
@@ -996,7 +938,6 @@ doDecrypt(passwd, onError);
 <p><img src="/2017/06/02/我的欢乐颂人设.jpg" alt="我的欢乐颂人设"> </p>
 <h2 id="u665A_u4E0A_u8981_u4E0D_u8981_u5403_u4E1C_u897F"><a href="#u665A_u4E0A_u8981_u4E0D_u8981_u5403_u4E1C_u897F" class="headerlink" title="晚上要不要吃东西"></a>晚上要不要吃东西</h2><p>今天晚上居然有点饿诶，是因为之前出去兜风的缘故吗？</p>
 <h2 id="u5DEE_u70B9_u5FD8_u8BB0_u4ECA_u5929_u7684_u8111_u6D1E_u4E86"><a href="#u5DEE_u70B9_u5FD8_u8BB0_u4ECA_u5929_u7684_u8111_u6D1E_u4E86" class="headerlink" title="差点忘记今天的脑洞了"></a>差点忘记今天的脑洞了</h2><p>主楼亮灯。<br>专为毕业季打造。<br>可以人工到需要亮灯的房间然后在群里指挥，<br>最方便的大概就是设计程序实现对灯光开闭及时长的自动调控。</p>
-<p>（其他正当用途也可以当神助攻嘿嘿嘿，请校方酌情收费）</p>
 ]]></content>
     
     <summary type="html">
@@ -1386,15 +1327,15 @@ doDecrypt(passwd, onError);
     <link href="https://hi-yo-coco.github.io/2017/05/11/"/>
     <id>https://hi-yo-coco.github.io/2017/05/11/</id>
     <published>2017-05-11T00:54:44.000Z</published>
-    <updated>2017-07-28T06:29:55.338Z</updated>
+    <updated>2018-05-10T05:51:46.958Z</updated>
     
     <content type="html"><![CDATA[<center><img src="/2017/05/11/car.png" alt="car"> </center>
 
-<p>我永远记得那辆酒红云母色的LEXUS ES350。<a id="more"></a></p>
+<p>我永远记得那辆酒红云母色的LEXUS。<a id="more"></a></p>
 <p>还记得第一次遇见它，是在上学路上。沿江边。</p>
 <p>完美的流线型外表搭配抢眼的酒红色，一下子就吸引了我的眼球。</p>
 <p>引擎的声浪也恰到好处。</p>
-<p>从此就一发不可收地爱上了LEXUS。我开始有意无意地关注汽车杂志。</p>
+<p>从此就一发不可收地爱上了LEXUS。我开始有意无意地关注汽车资讯。</p>
 <p>后来又见过它几次，还是在那条路上。</p>
 <p>神奇的是，每次见到它，都能带给我一整天的好心情。</p>
 <p>后来，它虽然没有成为我最喜欢的车，</p>
@@ -1406,7 +1347,7 @@ doDecrypt(passwd, onError);
     
       &lt;center&gt;&lt;img src=&quot;/2017/05/11/car.png&quot; alt=&quot;car&quot;&gt; &lt;/center&gt;
 
-&lt;p&gt;我永远记得那辆酒红云母色的LEXUS ES350。&lt;/p&gt;
+&lt;p&gt;我永远记得那辆酒红云母色的LEXUS。&lt;/p&gt;
     
     </summary>
     
