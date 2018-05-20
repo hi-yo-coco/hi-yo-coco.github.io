@@ -4,6 +4,28 @@
 
     
   <url>
+    <loc>https://hi-yo-coco.github.io/2018/05/20/</loc>
+    <lastmod>2018-05-20T02:35:30.146Z</lastmod>
+    <data>
+        <display>
+        <title>一封寄给你们的信</title>
+        <pubTime>2018-05-20T01:51:33.000Z</pubTime>
+        
+        <tag>毕业季</tag>
+         
+        <tag>Favorites</tag>
+         
+         
+           
+             
+              <breadCrumb title="随笔" url="https://hi-yo-coco.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://hi-yo-coco.github.io/2017/05/11/</loc>
     <lastmod>2018-05-10T05:51:46.958Z</lastmod>
     <data>
