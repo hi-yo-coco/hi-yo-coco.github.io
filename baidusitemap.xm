@@ -5,7 +5,7 @@
     
   <url>
     <loc>https://hi-yo-coco.github.io/2018/07/22/</loc>
-    <lastmod>2018-07-23T01:28:31.932Z</lastmod>
+    <lastmod>2018-07-23T03:29:08.198Z</lastmod>
     <data>
         <display>
         <title>七零三二</title>
@@ -16,7 +16,7 @@
          
            
              
-              <breadCrumb title="随笔" url="https://hi-yo-coco.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+              <breadCrumb title="日常" url="https://hi-yo-coco.github.io/categories/%E6%97%A5%E5%B8%B8/"/>
           
         </display>
     </data>
