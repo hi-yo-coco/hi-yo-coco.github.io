@@ -46,41 +46,19 @@
   </entry>
   
   <entry>
-    <title>后会有期（待续）</title>
+    <title>后会有期</title>
     <link href="https://hi-yo-coco.github.io/2018/06/22/"/>
     <id>https://hi-yo-coco.github.io/2018/06/22/</id>
     <published>2018-06-22T13:01:49.000Z</published>
-    <updated>2018-06-28T00:43:47.962Z</updated>
+    <updated>2018-12-08T12:57:16.737Z</updated>
     
-    <content type="html"><![CDATA[<script src="/js/crypto-js.js"></script><script>
-function doDecrypt(pwd, onError) {
-	console.log("in doDecrypt");
-	var txt = document.getElementById("enc_content").innerHTML;
-	var plantext;
-	try {
-	  	var bytes = CryptoJS.AES.decrypt(txt, pwd);
-		plaintext = bytes.toString(CryptoJS.enc.Utf8);
-	} catch(err) {
-		if(onError) {onError(err);}
-		return;
-	}
-	document.getElementById("enc_content").innerHTML = plaintext;
-	document.getElementById("enc_content").style.display = "block";
-   document.getElementById("enc_passwd").style.display = "none";
-}
-</script>
-<div id="enc_content" style="display:none">U2FsdGVkX19dZj4ZUGiE8/+NqITR1RJ4i//9hogq6Pm/raYCb5G2yzr7p5LBIqdMJ+Wpu0hzXcRJtfJTfuWNlxN7ojYWHNSoDlesuHRCA+j8bO7Q1RkyVrLq8r03IX2AdC0zk6B9OsWgPd2zXar5XkhMYIT4AzafNXo+KEQiE9EdmSB8wlC3o40pIi1yChJ85GSDDNsth7xqcN8vOUk6t7lsTEqxe1U1H+QqJG/JeypY8rbduszQvMBMRuDmamzn9nzgNXtk2T9xf/46m3mOpYTHZgcsoZlSSEAo3RhIAgwZ2VNcKKR2vQbndJPdVNraR/EGTK4vbdhKgHp3zhlJT3u4sVDi4X6UkrHGG7gWM+3lmwrVXfSTJO0Zasddpr/2wuQKHhDrZIw8KFYQAm96YStqtgphda+1rCaPyhTaA5c2/5uy9UX2cuQGslbk6fNOu6bXWVEBK9Q4J8E0+8Dif6GAMTX3dBOgYj//5KW2I0FdOg5HN9S4l4ksh1WRh3Ha3WVHp++xeomOlzeuX949kgnSKKMiH6MqUXTm7fVn9O2+RYyANqqECrhhhxETy6aHntvi/Gu2W5NIrtDEhBfW/a2mpjh4Eyep6T5d6+kw9nbWc/Up0Zb1zD3QjMdLSGEX4nuO4sTz2I6TfhZ4/ZRMlZ9iVz0tQSlO8OuS1LXtcA8XjM9FwZbg3TrBzI7A4YavQ4teJGBY0eJfJ3Cz3J6BZxyOTZxSHEA53M/FAO5eKJdEa7KXhdQU4FUaQg/DQ++ct3NRGCKeKILNdu8EtC019imrI4LA4rbRwlHWYR+MMpjyyvUjFNLgho/yRKMvhQ/Mqlm8nXiYXnwwtAa2pIklKoX1CrM4o4Es+SwWPE21yPjzYrTX8MZVrZtFlst13b7b4j4J02W+ss5DGro+1SKL3ORDEwk1eGpae9v2cOAf1SEjTXptnZdGBS+Tn8Aja1eb4Lb1/qrYs92ggr8WpRRY6ESUMzmzNOhyCdNi6j8unKoe/km4iA3rsdO/V7FSz5oc16BchN0WRgz7V3mPebSrzwiz9MUxInuEkNcbKdoYgBQL0Pq2AmDTfFqQLTHvLiM8+WIzeHSkIfITKun88sjbXYLfiEqkAFeDG+6alKKTECwwA4O1tuoL281YMcBdMoM/BR+B9sVr9GQp30WiG/OOzOJp086NTfbbVRLQF3mfglLkXeQ9r8DdXf+eGTn8EludfF4Z1c3vVX1D0WbxJUDST+QcM63egaMHb1PWthyiscpAExgk/ybOt7vlBIAuWUNo</div><div id="enc_passwd"> <input id="enc_pwd_input" type="text" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div>
-<script>
-var onError = function(error) {
-	document.getElementById("enc_error").innerHTML = "password error!"
-};
-function decrypt() {
-var passwd = document.getElementById("enc_pwd_input").value;
-console.log(passwd);
-doDecrypt(passwd, onError);
-}
-</script>
-</div>]]></content>
+    <content type="html"><![CDATA[<p><strong>承蒙关照，后会有期。</strong><a id="more"></a></p>
+<p>记得你的四季：<br>是一不留神就喂你一嘴柳絮的春风，<br>是一言不合就送你一季黄梅的夏雨，<br>是一心一意只为你一展笑颜的秋叶，<br>是一声不吭却给你一个惊喜的冬雪。</p>
+<p>记得你的祝福：<br>是勇敢追寻幸福的向日葵，<br>是努力实现梦想的油菜花，<br>是永远坚持正义的马鞭草，<br>是记得保持健康的婆婆纳<br>还有偶尔制造浪漫的钓钟柳。</p>
+<p>记得你的风姿：<br>是五月凉风下的广场音乐会，<br>是周三晚餐前的天堂电影院，<br>是风头一时无两的黑暗料理，<br>是让人一见钟情的新图书馆。</p>
+<p>记得我们的日常。<br>是吾日三省吾身：早上吃什么，中午吃什么，晚上吃什么。<br>是闲来无事溜达：东边有什么，西边有什么，南边有什么，北边有什么。</p>
+<p>记得初见时的喜悦。<br>也记得临别前的凝视。<br>深深的。<br>刻在我的心上。</p>
+]]></content>
     
     <summary type="html">
     
