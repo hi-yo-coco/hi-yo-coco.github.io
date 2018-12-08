@@ -4,8 +4,25 @@
 
     
   <url>
+    <loc>https://hi-yo-coco.github.io/2018/12/08/</loc>
+    <lastmod>2018-12-08T14:30:57.247Z</lastmod>
+    <data>
+        <display>
+        <title>尘埃落定？</title>
+        <pubTime>2018-12-08T13:17:11.000Z</pubTime>
+        
+        <tag>日常</tag>
+         
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://hi-yo-coco.github.io/2018/06/22/</loc>
-    <lastmod>2018-12-08T12:57:16.737Z</lastmod>
+    <lastmod>2018-12-08T13:01:36.357Z</lastmod>
     <data>
         <display>
         <title>后会有期</title>
