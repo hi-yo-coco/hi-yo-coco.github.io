@@ -4,6 +4,24 @@
 
     
   <url>
+    <loc>https://hi-yo-coco.github.io/2019/02/10/</loc>
+    <lastmod>2019-02-11T11:31:59.055Z</lastmod>
+    <data>
+        <display>
+        <title>年味</title>
+        <pubTime>2019-02-10T04:27:00.000Z</pubTime>
+        
+         
+           
+             
+              <breadCrumb title="随笔" url="https://hi-yo-coco.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://hi-yo-coco.github.io/2018/12/08/</loc>
     <lastmod>2019-01-25T13:16:17.928Z</lastmod>
     <data>
