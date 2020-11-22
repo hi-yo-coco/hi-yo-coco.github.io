@@ -75,18 +75,37 @@
     <link href="https://hi-yo-coco.github.io/2019/11/30/"/>
     <id>https://hi-yo-coco.github.io/2019/11/30/</id>
     <published>2019-11-30T10:54:44.000Z</published>
-    <updated>2020-02-07T11:13:26.209Z</updated>
+    <updated>2020-11-22T03:42:58.125Z</updated>
     
-    <content type="html"><![CDATA[<blockquote>
-<p>若没有人赠予你阳光，那就做自己的小太阳。</p>
-</blockquote>
-<p>我相信，一切都是最好的安排。<a id="more"></a></p>
-<p>“小时候，于我而言，你是个欢喜冤家般的存在，儿时嬉笑打闹的场面是我永远的宝藏；长大后，经过岁月雕琢，我们成熟了许多，于我而言，你又如知心姐姐一般帮我解忧，与我畅谈。都说姐妹是永远的朋友，是的，我们是姐妹，也更像是朋友。我想说，即使全世界与你为敌，只要你肯回头，你定会发现，我这个小小的身影仍一直坚定地陪在你左右。也希望你能够早日找到那个真正爱你的对的人，不去试一试又怎么学会爱与被爱呢？爱情将给予你力量，让你与孤单挥手再见。若没有也别灰心，练就一颗强大的内心又何尝不可，虽然我知道这很难。又想到《千与千寻》中这样一句话：‘人生就是一列开往坟墓的列车，路途上会有很多站，很难有人可以自始至终陪着走完。当陪你的人要下车时，即使不舍也该心存感激，然后挥手道别。’能够相伴一程已是一生的缘分。在携手同行的过程中，有爱，有痛，有争执，有拥抱，就是成长。最后，一句话与你共勉：若没有人赠予你阳光，那就自己成为太阳！众口难调，自己开心就好！我相信，你可以！！！”</p>
-<p>读完这封信的时候，我已经泪流满面。<br>感谢家人一直无条件接纳如此不完美的我。相信未来的日子里，我们还会一起成长，彼此温暖，互相支持，用爱和理解照亮这一趟人生旅途。</p>
-<p>转眼入职已一年有余，我很幸运，加入了一个温暖的大家庭，认识了那么多可爱的人，在他们身上，我看到了属于每个人的光芒。</p>
-<p>最后，我还想特别感谢每年给我寄明信片的β。谢谢你一直倾听我陪伴我鼓励我，同你一样，我也真诚地希望这世间一切美好的祝福都发生在你身上。</p>
-<p>爱你们。</p>
-]]></content>
+    <content type="html"><![CDATA[<script src=/js/crypto-js.js></script><script>
+function doDecrypt(pwd, onError) {
+	console.log("in doDecrypt");
+	var txt = document.getElementById("enc_content").innerHTML;
+	var plantext;
+	try {
+	  	var bytes = CryptoJS.AES.decrypt(txt, pwd);
+		plaintext = bytes.toString(CryptoJS.enc.Utf8);
+	} catch(err) {
+		if(onError) {onError(err);}
+		return;
+	}
+	document.getElementById("enc_content").innerHTML = plaintext;
+	document.getElementById("enc_content").style.display = "block";
+   document.getElementById("enc_passwd").style.display = "none";
+}
+</script>
+<div id="enc_content" style="display:none">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</div><div id="enc_passwd"> <input id="enc_pwd_input" type="text" style="border-radius: 5px;border-style: groove;height: 30px;width: 50%;cursor: auto;font-size: 102%;color: currentColor;outline: none;text-overflow: initial;padding-left: 5px;" onkeydown="if (event.keyCode == 13) { decrypt(); return false;}"> <input type="submit" value="解&nbsp;密" onclick="decrypt()" style="width: 58px;height: 34px;border-radius: 5px;background-color: white;border-style: solid;color: currentColor;"><div id="enc_error" style="display: inline-block;color: #d84527;margin-left: 10px"></div>
+<script>
+var onError = function(error) {
+	document.getElementById("enc_error").innerHTML = "password error!"
+};
+function decrypt() {
+var passwd = document.getElementById("enc_pwd_input").value;
+console.log(passwd);
+doDecrypt(passwd, onError);
+}
+</script>
+</div>]]></content>
     
     <summary type="html">
     
