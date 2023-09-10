@@ -4,6 +4,26 @@
 
     
   <url>
+    <loc>https://hi-yo-coco.github.io/2023/09/01/</loc>
+    <lastmod>2023-09-10T09:03:30.301Z</lastmod>
+    <data>
+        <display>
+        <title>Magical Friday Night</title>
+        <pubTime>2023-09-01T09:00:00.000Z</pubTime>
+        
+        <tag>日常</tag>
+         
+         
+           
+             
+              <breadCrumb title="随笔" url="https://hi-yo-coco.github.io/categories/%E9%9A%8F%E7%AC%94/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
     <loc>https://hi-yo-coco.github.io/2022/09/01/</loc>
     <lastmod>2023-09-10T08:15:53.188Z</lastmod>
     <data>
